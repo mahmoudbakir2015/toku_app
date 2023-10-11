@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:toku_app/models/item.dart';
 
 class ListItem extends StatelessWidget {
-  const ListItem(
-      {Key? key,
-      required this.item,
-      required this.color,
-      required this.itemType})
-      : super(key: key);
+  const ListItem({
+    Key? key,
+    required this.item,
+    required this.color,
+    required this.itemType,
+  }) : super(key: key);
   final Item item;
 
   final Color color;

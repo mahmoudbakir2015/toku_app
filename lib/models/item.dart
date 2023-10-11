@@ -1,5 +1,3 @@
-import 'package:flutter/foundation.dart';
-
 class Item {
   final String sound;
   final String? image;
@@ -7,7 +5,7 @@ class Item {
   final String enName;
   const Item({
     required this.sound,
-    @required this.image,
+    this.image,
     required this.jpName,
     required this.enName,
   });

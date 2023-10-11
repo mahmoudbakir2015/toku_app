@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
           Category(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return ColorsPage();
+                return const ColorsPage();
               }));
             },
             text: 'Colors',
